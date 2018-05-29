@@ -1,0 +1,25 @@
+{
+  "name": "Redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "actions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sythrill/Redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sythrill/Redux/issues"
+  },
+  "homepage": "https://github.com/Sythrill/Redux#readme",
+  "dependencies": {
+    "npm": "^6.1.0",
+    "react": "^16.4.0",
+    "uuid": "^3.2.1"
+  }
+}
