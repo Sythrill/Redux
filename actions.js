@@ -1,7 +1,7 @@
 import uuid from 'uuid';
 
-const ADD_COMMENT = 'ADD_COMMENT';
-const addComment = text => (
+export const ADD_COMMENT = 'ADD_COMMENT';
+export const addComment = text => (
     {
         type: ADD_COMMENT,
         text,
@@ -9,16 +9,16 @@ const addComment = text => (
     }
 );
 
-const REMOVE_COMMENT = 'REMOVE_COMMENT';
-const removeComment = id => (
+export const REMOVE_COMMENT = 'REMOVE_COMMENT';
+export const removeComment = id => (
     {
         type: REMOVE_COMMENT,
         id
     }
 );
 
-const EDIT_COMMENT = 'EDIT_COMMENT';
-const editComment = (text, id) => (
+export const EDIT_COMMENT = 'EDIT_COMMENT';
+export const editComment = (text, id) => (
     {
         type: EDIT_COMMENT,
         text,
@@ -26,16 +26,16 @@ const editComment = (text, id) => (
     }
 );
 
-const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
-const thumbUp = (id) => (
+export const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
+export const thumbUp = (id) => (
     {
         type: THUMB_UP_COMMENT,
         id,
     }
 );
 
-const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
-const thumbDown = (id) => (
+export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
+export const thumbDown = (id) => (
     {
         type: THUMB_DOWN_COMMENT,
         id

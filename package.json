@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/Sythrill/Redux#readme",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "npm": "^6.1.0",
     "react": "^16.4.0",
+    "redux": "^4.0.0",
     "uuid": "^3.2.1"
   }
 }
